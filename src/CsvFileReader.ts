@@ -1,8 +1,8 @@
 import fs from "fs";
 
-export abstract class CsvFileReader<DataType> {
-  data: DataType[] = [];
-  abstract mapRow(row: string[]): DataType;
+export abstract class CsvFileReader<T> {
+  data: T[] = [];
+  abstract mapRow(row: string[]): T;
 
   constructor(public filename: string) {}
 
