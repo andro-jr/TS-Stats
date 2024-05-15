@@ -20,3 +20,4 @@ for (let match of footballMatchReader.matches) {
 }
 
 console.log("manUnitedWins :", manUnitedWins);
+console.log("manUnitedWins :", manUnitedWins);
